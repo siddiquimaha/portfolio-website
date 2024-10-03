@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1792616ac1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.jpeg" class="logo">
+            <ul>
+                <li><a href="#about">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#services">Services</a>
+                    <ul>
+                        <li><a href="">Graphic Designing</a>
+                            <ul>
+                                <li><a href="">Logo</a></li>
+                                <li><a href="">Tshirt</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Custom Web Development</a>
+                            <ul>
+                                <li><a href="">scratch</a></li>
+                                <li><a href="">cms</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">App Development</a>
+                            <ul>
+                                <li><a href="">Mobile</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">SEO</a></li>
+                        <li><a href="">SMM</a></li>
+                    </ul>
+                </li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Developer</p>
+            <h1> Hi, I am <span>Mahajabeen</span> siddiqui<br>from Pakistan</h1>
+        </div>
+    </div>
+</div>
+<!------------about--------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/maha.JPG">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a software Engineer in a software house,working on company's own products, but previously i was a banker and worked in multiples bank</p> 
+            
+                <div class="tab-titles ">
+                    <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-link"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-link"onclick="opentab('education')">education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>designning Web interface</li>
+                        <li><span>Web development</span><br>Web development</li>
+                        <li><span>Scratch</span><br>from scratch</li>
+                    </ul>
+                </div>
+                <div class="tab-contents active-tab" id="experience">
+                    <ul>
+                        <li><span>2024 - current</span><br>Software Engineer</li>
+                        <li><span>2021 - 2024</span><br>Student</li>
+                        <li><span>2019 - 2021</span><br>officer face</li>
+                        <li><span>2018 - 2019</span><br>officer face</li>
+                    </ul>
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>2023 - current</span><br>Software Engineering</li>
+                        <li><span>2007 - 2008</span><br>MBA</li>
+                        <li><span>2004 - 2007</span><br>BBA</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------services------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>web design,layout structure in the html form</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>design ideas share to for figma design whose converted in code </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Custom web</h2>
+                <p>its a custom website where i can develop custom website as per requrement of client</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------portfolio-------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpeg">
+                <div class="layer">
+                    <h3>custom website </h3>
+                    <p>it is final project client was my university whose designed a web for me, and fullfilled their requirement </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpeg">
+                <div class="layer">
+                    <h3>Clone web</h3>
+                    <p>as  in my another tech institute where design multiples clone of websites</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpeg">
+                <div class="layer">
+                    <h3>Functionality</h3>
+                    <p>now,this website is portfolio website where i am applyong javascript functionality</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!---------contact-------->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>siddiqui.mahajabeen@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+923322392917</p>
+                <div class="social-icons">
+
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+                <a href="images/maha.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form id="contact-form">
+                    <input type="text" name="Name" id="uname" placeholder="Your Name" required>
+                    <span id="name-error" class="error-message"></span>
+                    <input type="email" name="email" id="uemail" placeholder="Your Email id" required>
+                    <span id="email-error" class="error-message"></span>
+                    <textarea name="Message" id="umsg" placeholder="Your Message"></textarea>
+                    <span id="message-error" class="error-message"></span>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+        </div> 
+    </div>
+    <div class="btn btn-primary btt-btn">back to</div>
+
+    <div class="copyright">
+        <p>copyright @ maha.made <i class="fa-brands fa-gratipay"></i> by me</p>
+    </div>
+</div>
+<!------tab in about ------>
+<script src="index.js"></script>
+</body>
+</html>
